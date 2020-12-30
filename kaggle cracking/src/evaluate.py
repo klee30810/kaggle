@@ -8,7 +8,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--target-file', '-t',
                         required=True, dest='target_file')
-    parser.add_argument('--predict-file', '-t',
+    parser.add_argument('--predict-file', '-p',
                         required=True, dest='predict_file')
 
     args = parser.parse_args()
